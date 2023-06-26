@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+#line{
+            width: 200px;
+            height: 2px;
+            background-color: black;
+        }
+        .line{
+            animation: rotate 1s linear infinite;
+
+        }
+        .container{
+            width: 500px;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: yellow;
+        }
+        @keyframes rotate {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
